@@ -1,0 +1,24 @@
+To get started with RugbyPython:
+
+1 ~ Open a new python file.
+
+2 ~ To import RugbyPy type: from 'RugbyPython import *', also import matplotlib.pyplot
+
+4 ~ Start setting up the axis and plot with: fig=plt.figure()
+
+5 ~ Set the size of the figure as you wish: fig.set_size_inches(13, 8)
+
+6 ~ Add subplot(s): ax=fig.add_subplot(1,1,1)
+
+7 ~ Enter the following line and customize as wanted: 'rugby_pitch(ax=ax, linecolor='black', poles=True, polescolor = False, labels=False, labelalpha = 0.4, shadows=False)
+
+Full code for starting:
+
+        from RugbyPython import *
+        import matplotlib.pyplot as plt
+
+        fig=plt.figure() #set up the figures
+        fig.set_size_inches(13, 8)
+        ax=fig.add_subplot(1,1,1)
+        
+        rugby_pitch(ax=ax, linecolor='black', poles=True, polescolor = False, labels=False, labelalpha = 0.4, shadows=False)
