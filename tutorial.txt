@@ -14,6 +14,7 @@ To get started with RugbyPython:
 
 Full code for starting:
 
+How to use pitch():
         from RugbyPython import *
         import matplotlib.pyplot as plt
 
@@ -21,4 +22,20 @@ Full code for starting:
         fig.set_size_inches(13, 8)
         ax=fig.add_subplot(1,1,1)
         
-        rugby_pitch(ax=ax, linecolor='black', poles=True, polescolor = False, labels=False, labelalpha = 0.4, shadows=False)
+        pitch(ax=ax, linecolor='black', poles=True, polescolor = False, labels=False, labelalpha = 0.4, shadows=False)
+
+
+How to use vertpitch():
+        from RugbyPython import *
+        import matplotlib.pyplot as plt
+
+        fig=plt.figure() #set up the figures
+        fig.set_size_inches(13, 8)
+        ax=fig.add_subplot(1,1,1)
+        
+        vertpitch(ax=ax, linecolor='black', poles=True, polescolor = False, labels=False, labelalpha = 0.4, shadows=False)
+        
+How to use helper():
+        helper('function')
+        for example: helper('vertpitch')
+        use '
