@@ -1,0 +1,7 @@
+- Removed the half functionality from pitch()
+- Gave the help() command a default response
+- Gave pitch() default arguments
+- Added individual help arguments for halfpitch(), vertpitch() and leaguepitch()
+- Improved the names for function variables and made sure they're consistent for all four functions
+- Added helper(setup) to get you started
+- Gave pitch() and vertpitch() customizeable five lines. - or --. 
