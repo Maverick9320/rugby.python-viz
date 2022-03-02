@@ -1,4 +1,4 @@
-# Rugby-Analytics
+# RugbyPython
 Functions to make it easy to plot and record rugby analytics.
 
 To use these functions you will have to have python installed and the following packages: Matplotlib, Pandas.
