@@ -1,6 +1,8 @@
 # RugbyPython
 Latest version 0.0.4
+
 pip install RugbyPython --upgrade
+
 
 Functions to make it easy to plot and record rugby analytics.
 
