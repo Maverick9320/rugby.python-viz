@@ -1,5 +1,5 @@
 # RugbyPython
-Latest version 0.0.4
+Latest version 0.0.6
 
 pip install RugbyPython --upgrade
 
@@ -19,7 +19,7 @@ Windows:
 
 3 ~ Pip will then automatically install the package where it needs to go.
 
-4 ~ Open a py script and import the package with: import RugbyPython
+4 ~ Open a py script and import the package with: 'from RugbyPython import *'
 
 5 ~ Matplotlib may be installed automatically or you may have it installed already. If you don't have it install it with: 'pip install matplotlib'
 
