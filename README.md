@@ -28,7 +28,11 @@ Windows:
 All functions:
 
 -pitch(ax='ax', pitchcolor = 'white', linecolor='Black', poles=False, linestyle='--', labels=False, labelalpha=0.5, shadows=False, linealpha=0.2)
+
 -vertpitch(ax='ax', pitchcolor = 'white', linecolor='Black', poles=False, linestyle='--', labels=False, labelalpha=0.5, shadows=False, linealpha=0.2)
+
 -leaguepitch(ax='ax', pitchcolor = 'white', linecolor='Black', poles=False, linestyle='--', labels=False, labelalpha=0.5, shadows=False, linealpha=0.2)
+
 -zones(data, ax, alpha=0.5, paint1 = '#0384fc', paint2 = '#FF4F3F', legend=False)
+
 -badge(ax='ax', img='none', alpha=1, zorder=99)
