@@ -2,7 +2,7 @@ To get started with RugbyPython:
 
 1 ~ Open a new python file.
 
-2 ~ To import RugbyPy type: from 'RugbyPython import *', also import matplotlib.pyplot
+2 ~ To import RugbyPy type: from 'RugbyPython import *', also import matplotlib.pyplot with 'import Matplotlib.pyplot as plt'
 
 4 ~ Start setting up the axis and plot with: fig=plt.figure()
 
@@ -10,7 +10,7 @@ To get started with RugbyPython:
 
 6 ~ Add subplot(s): ax=fig.add_subplot(1,1,1)
 
-7 ~ Enter the following line and customize as wanted: 'rugby_pitch(ax=ax, linecolor='black', poles=True, polescolor = False, labels=False, labelalpha = 0.4, shadows=False)
+7 ~ Enter the following line and customize as wanted: 'rugby_pitch(ax=ax, linecolor='black', poles=True, labels=False, labelalpha = 0.4, shadows=False)
 
 Full code for starting:
 
@@ -22,7 +22,7 @@ How to use pitch():
         fig.set_size_inches(13, 8)
         ax=fig.add_subplot(1,1,1)
         
-        pitch(ax=ax, linecolor='black', poles=True, polescolor = False, labels=False, labelalpha = 0.4, shadows=False)
+        pitch(ax='ax', pitchcolor = 'white', linecolor='Black', poles=False, linestyle='--', labels=False, labelalpha=0.5, shadows=False, linealpha=0.2)
 
 
 How to use vertpitch():
@@ -30,12 +30,22 @@ How to use vertpitch():
         import matplotlib.pyplot as plt
 
         fig=plt.figure() #set up the figures
+        fig.set_size_inches(8, 13)
+        ax=fig.add_subplot(1,1,1)
+        
+        vertpitch(ax='ax', pitchcolor = 'white', linecolor='Black', poles=False, linestyle='--', labels=False, labelalpha=0.5, shadows=False, linealpha=0.2)
+        
+How to use leaguepitch():
+        from RugbyPython import *
+        import matplotlib.pyplot as plt
+
+        fig=plt.figure() #set up the figures
         fig.set_size_inches(13, 8)
         ax=fig.add_subplot(1,1,1)
         
-        vertpitch(ax=ax, linecolor='black', poles=True, polescolor = False, labels=False, labelalpha = 0.4, shadows=False)
+        leaguepitch(ax='ax', pitchcolor = 'white', linecolor='Black', poles=False, linestyle='--', labels=False, labelalpha=0.5, shadows=False, linealpha=0.2)
         
 How to use helper():
         helper('function')
         for example: helper('vertpitch')
-        use '
+        #Options for helper: 'pitch', 'vertpitch', 'leaguepitch', 'variables' or 'Variables', 'setup' and 'default'.
