@@ -1,4 +1,4 @@
-Functions
+**Functions**: \n
 union_pitch()
 
 ```
