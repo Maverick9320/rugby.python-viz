@@ -1,6 +1,11 @@
 # Rugby Python
 
-The dimensions of both pitch styles are 100x70. The pitches can be plotted onto a matplotlib.pyplot figure or ax with the following code. 
+### Installation
+
+``` pip install Rugby ```
+
+### Functionality
+#### Field Dimensions: *100x70*
 ```
 import matplotlib.pyplot as plt
 
