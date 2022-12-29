@@ -1,5 +1,6 @@
-**Functions**: \n
-union_pitch()
+**Functions**:
+
+*union_pitch()*
 
 ```
 x = field()
