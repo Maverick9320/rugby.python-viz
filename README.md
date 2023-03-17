@@ -1,4 +1,8 @@
 # 🏉 Rugby Python
+[![Python](https://img.shields.io/badge/python-blue.svg)](https://www.python.org/downloads/release/python-360/)
+[![Jupyter](https://img.shields.io/badge/jupyter-lab-orange.svg)](https://www.python.org/downloads/release/python-360/)
+[![JupyterNbook](https://img.shields.io/badge/jupyter-notebook-orange.svg)](https://www.python.org/downloads/release/python-360/)
+
 This package is used in conjunction with matplotlib to make it easy to plot field lines for both rugby union and rugby league pitches. There are plans for functionality to include adding zones and kick plotting. 
 
 ``` This project is a WIP and more stuff will be added through 2023 to offer more functionality. ``` 
